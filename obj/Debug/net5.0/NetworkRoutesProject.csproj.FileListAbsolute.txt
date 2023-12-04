@@ -1,0 +1,16 @@
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.csproj.AssemblyReference.cache
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.AssemblyInfoInputs.cache
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.AssemblyInfo.cs
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.csproj.CoreCompileInputs.cache
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\bin\Debug\net5.0\NetworkRoutesProject.exe
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\bin\Debug\net5.0\NetworkRoutesProject.deps.json
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\bin\Debug\net5.0\NetworkRoutesProject.runtimeconfig.json
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\bin\Debug\net5.0\NetworkRoutesProject.runtimeconfig.dev.json
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\bin\Debug\net5.0\NetworkRoutesProject.dll
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\bin\Debug\net5.0\ref\NetworkRoutesProject.dll
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\bin\Debug\net5.0\NetworkRoutesProject.pdb
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.dll
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\ref\NetworkRoutesProject.dll
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.pdb
+C:\Users\Asus\py4e\fwp1\webpage\NetworkRoutesProject\obj\Debug\net5.0\NetworkRoutesProject.genruntimeconfig.cache
