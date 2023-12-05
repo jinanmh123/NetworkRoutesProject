@@ -31,10 +31,11 @@ class Program
     {
         // Asynchronously search for network destination routes
         await SearchRoutesForNetworkDestinationAsync("127.0.0.1");
+
+        await SearchRoutesForNetworkDestinationAsync("10.10.10.1");
         
         // Display message and wait for user input to keep console window open
-        Console.WriteLine("Press enter to exit...");
-        Console.ReadLine();
+        Console.WriteLine("\nPress enter to exit...");Console.ReadLine();
     }
 
     // Asynchronously search for network destination routes across all network interfaces
@@ -43,7 +44,7 @@ class Program
         // Asynchronously process routes for all network interfaces
         await Task.WhenAll(NetworkInterface.GetAllNetworkInterfaces().Select(async nic =>
         {
-            Console.WriteLine($"Searching for network destination {networkDestination} in routes for interface: {nic.Name}\n");
+            Console.WriteLine($"\nSearching for network destination {networkDestination} in routes for interface: {nic.Name}");
             
             // Retrieve matching routes asynchronously
             var routes = await GetMatchingRoutesAsync(nic, networkDestination);
@@ -51,12 +52,11 @@ class Program
             // Display information for each matching route
             routes.ForEach(route =>
             {
-                Console.WriteLine($"  {networkDestination} found on interface {nic.GetIPProperties().UnicastAddresses[0].Address} ({route.dwForwardIfIndex})");
+                Console.WriteLine($"\n  {networkDestination} found on interface {nic.GetIPProperties().UnicastAddresses[0].Address} ({route.dwForwardIfIndex})\n");
                 //Console.WriteLine($"  Interface Type: (You may need to determine this from your specific context)");
             });
 
-            // Add a newline for better output formatting
-            Console.WriteLine();
+            
         }));
     }
 
